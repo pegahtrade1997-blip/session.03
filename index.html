@@ -1,0 +1,106 @@
+<head>
+  <title>تمرین جلسه سوم</title>
+</head>
+<body dir="rtl">
+  <em><h1>صفحه اصلی</h1></em>
+  <table dir="rtl">
+    <em>
+      <caption>
+        برنامه کلاس ها
+      </caption></em
+    >
+
+    <thead>
+      <tr>
+        <th>نام درس</th>
+        <th>نام استاد</th>
+        <th>ساعت کلاس</th>
+        <th>شماره کلاس</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>فاندامنتال</td>
+        >
+        <td>رمضانی</td>
+        <td>11 صبح</td>
+        <td>220</td>
+      </tr>
+      <tr>
+        <td>تکنیکال</td>
+        <td>رفیعی</td>
+        <td>4عصر.</td>
+        <td>110.</td>
+      </tr>
+      <tr>
+        <td>ولیوم</td>
+        >
+        <td>شعباندوست</td>
+        <td>8 شب</td>
+        <td>330</td>
+      </tr>
+    </tbody>
+    >
+  </table>
+  <hr />
+  <h2>فرم ثبت نام کلاس</h2>
+  <form>
+    <div>
+      <label for="email">ایمیل</label>
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="x@y.com"
+        autocomplete="on" />
+    </div>
+    <br />
+    <div>
+      <label for="name">نام و نام خانوادگی</label>
+      <input
+        type="text"
+        name="name"
+        required
+        placeholder="فارسی بنویسید"
+        minlength="2"
+        maxlength="20" />
+    </div>
+    <br />
+    <div>
+      <label for="city">شهر</label>
+      <select name="city">
+        <option>انتخاب کنید</option>
+        <option value="teh">تهران</option>
+        <option value="isf">اصفهان</option>
+        <option value="rsh">رشت</option>
+      </select>
+    </div>
+    <br />
+    <h2>نحوه شرکت</h2>
+    <div>
+      <label> <input type="radio" name="نحوه شرکت" value="حضوری" />حضوری</label>
+      <label
+        ><input type="radio" name="نحوه شرکت" value="انلاین" />انلاین</label
+      >
+    </div>
+    <br />
+    <h2>علاقه مندی ها</h2>
+    <label>
+      <input type="checkbox" name="علاقه مندی ها" value="نقاشی" />نقاشی</label
+    >
+    <label>
+      <input type="checkbox" name="علاقه مندی ها" value="ورزش" />ورزش</label
+    >
+    <label>
+      <input type="checkbox" name="علاقه مندی ها" value="اموزش" />اموزش</label
+    >
+    <label>
+      <input type="checkbox" name="علاقه مندی ها" value="تولید محتوا" />تولید
+      محتوا</label
+    >
+    <br />
+    <br />
+    <br />
+    <button type="submit">ارسال</button>
+  </form>
+</body>
